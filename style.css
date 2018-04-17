@@ -142,12 +142,13 @@ p {
     line-height: 1.375em;
     font-weight: 400;
     margin: 70px 0;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Syncopate', sans-serif;
+    
     
 }
 .item span {
     font-style: normal;
-    font-family: 'Playfair Display SC', serif;
+    font-family: 'Syncopate', sans-serif;
 }
 .panel {
     border: 1px solid #f4511e;
