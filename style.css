@@ -66,17 +66,33 @@ p {
     font-family:'Sacramento', cursive;
    /* color: #a4a5a5;*/
    color:white;
-    font-size: 75px;
+    font-size: 100px;
     font-weight: 800;
-    text-shadow: 4px 4px 2px rgba(150, 150, 150, .75); 
+    text-shadow: 4px 4px 2px rgba(31, 0, 0, .75); 
 }
 .jumbotron {
-    /*background-color: #42ebf4;*/
-    background: linear-gradient(#42ebf4,#757777);
+    /*: linear-gradient(#42ebf4,#757777);*/
+    background-image: url(giphy.gif);
+     background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    background-color: #999;
     color: white;
     padding: 250px 200px;
-    font-family: 'Syncopate', sans-serif;
+    font-family: 'Syncopate', sans-serif; 
 }
+
+    background-image: url(<iframe src="https://giphy.com/embed/t7QSBYCU9JvfkxLoNM");
+            background-position: center center;
+            background-repeat:  no-repeat;
+            background-attachment: fixed;
+            background-size:  cover;
+            background-color: #999;
+  
+}
+    
+
 #about {
     background: linear-gradient(#757777,#42ebf4);
 }
@@ -247,7 +263,7 @@ footer .glyphicon {
     -webkit-transform: translateY(0%);
   }
 }
-@media screen and (max-width: 100%) {
+/*@media screen and (max-width: 100%) {
   .col-sm-4 {
     text-align: center;
     margin: 25px 0;
@@ -261,5 +277,9 @@ footer .glyphicon {
   .logo {
       font-size: 150px;
   }
-}
-</style>
+@media all and (min-width: 200px)
+    body {
+
+    }*/
+
+
