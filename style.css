@@ -4,8 +4,11 @@ body {
     line-height: 1.8;
     color: #818181;
 }
+button {
+font-family: 'Syncopate', sans-serif;
+}
 h1 {
-    font-family: 
+    
     font-size: 48px;
     text-transform: uppercase;
     color: white;
