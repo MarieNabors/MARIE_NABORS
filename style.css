@@ -8,7 +8,7 @@ body {
   background: linear-gradient(to right, #191654, #43C6AC); /
 }
 button {
-font-family: 'Syncopate', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 col-sm-4 {
@@ -22,7 +22,7 @@ h1 {
     color: white;
     font-weight: 600;
     margin-bottom: 30px;
-    font-family: 'Syncopate', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     /* text-shadow: 5px 2px 10px rgba(0, 1, 10, 1); */
 }
 h2 {
@@ -32,7 +32,7 @@ h2 {
     color: white;
     font-weight: 600;
     margin-bottom: 30px;
-    font-family: 'Syncopate', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 h4 {
     font-size: 19px;
@@ -40,7 +40,7 @@ h4 {
     color: white;
     font-weight: 400;
     margin-bottom: 30px;
-    font-family: 'Syncopate', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     /* text-shadow: 5px 2px 10px rgba(0, 1, 10, 1); */
 }
 p {
@@ -49,7 +49,7 @@ p {
     color: white;
     font-weight: 400;
     margin-bottom: 30px;
-    font-family: 'Syncopate', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     /* text-shadow: 4px 4px 2px rgba(150, 150, 150, .75); */
 }
 #name {
@@ -57,7 +57,7 @@ p {
     line-height: 1.375em;
     color: gray;
     font-weight: 400;
-    font-family: 'Syncopate', sans-serif;}
+    font-family: 'Montserrat', sans-serif;}
 
 #email{
     font-size: 14px;
@@ -200,7 +200,7 @@ p {
 }
 .panel {
     /*border: 1px solid #f4511e;*/
-    border-radius:0 !important;
+    border-radius:25px;
     transition: box-shadow 0.5s;
 }
 .panel:hover {
@@ -208,18 +208,14 @@ p {
 }
 .panel-footer .btn:hover {
     border: 1px solid #f4511e;
-    background-color: #fff !important;
+    /* background-color: #fff !important; */
     color: #f4511e;
 }
 .panel-heading {
     /*color: #fff !important;*/
-    background-color:#f4511e !important;
+    background-color:#747272 !important;
     padding: 25px;
-    border-bottom: 1px solid transparent;
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+    border-radius: 25px;
 }
 .panel-footer {
     background-color: white !important;
@@ -238,7 +234,7 @@ p {
 }
 .navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color:black;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
