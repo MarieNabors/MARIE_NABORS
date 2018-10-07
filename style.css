@@ -1,6 +1,6 @@
 
 body {
-    font: 400 15px Lato, sans-serif;
+    font: 400 15px Avenir, sans-serif;
     line-height: 1.8;
     color: #818181;
     background: #43C6AC;  /* fallback for old browsers */
@@ -106,8 +106,8 @@ p {
     width:100%;
     padding: 50px;
     margin-top: 50px;
-
 }
+
 .about2 {
     font-size: 19px;
     line-height: 1.375em;
@@ -115,8 +115,8 @@ p {
     font-weight: 200;
     margin-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
-    
 }
+
 .container-fluid {
    background: #43C6AC;  /* fallback for old browsers */
    background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
@@ -128,20 +128,23 @@ p {
   background: #43C6AC;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
+
 .logo-small {
     color:floralwhite;
     font-size: 50px;
 }
+
 .logo {
     color: floralwhite;
     font-size: 200px;
 }
+
 .thumbnail {
     padding: 0 0 15px 0;
     border-radius: 10px;
 }
+
 .thumbnail img {
     width: 100%;
     height: 100%;
@@ -150,16 +153,20 @@ p {
     border: 10px;
     border-color: gray;
 }
+
 .carousel-control.right, .carousel-control.left {
     background-image: none;
     color: gray;
 }
+
 .carousel-indicators li {
     border-color: gray;
 }
+
 .carousel-indicators li.active {
     background-color: #f4511e;
 }
+
 .item h4 {
     font-size: 19px;
     line-height: 1.375em;
@@ -169,52 +176,63 @@ p {
 
 
 }
+
 .img {
     background: #43C6AC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(left, #191654, #43C6AC);
     background: -o-linear-gradient(left, #191654, #43C6AC);
     background: linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     width:100%;
-
+    height: 100%;
 }
+
 .item span {
     font-style: normal;
     font-family: 'Montserrat', sans-serif;
 }
+
 .panel {
     /*border: 1px solid #f4511e;*/
     border-radius:25px;
     transition: box-shadow 0.5s;
 }
+
 .panel:hover {
     box-shadow: 5px 0px 40px rgba(0,0,0, .2);
 }
+
 .panel-footer .btn:hover {
     border: 1px solid #f4511e;
     /* background-color: #fff !important; */
     color: #f4511e;
 }
+
 .panel-heading {
     /*color: #fff !important;*/
     background-color:#747272 !important;
     padding: 25px;
     border-radius: 25px;
 }
+
 .panel-footer {
     background-color: floralwhite !important;
 }
+
 .panel-footer h3 {
     font-size: 32px;
 }
+
 .panel-footer h4 {
     color: #aaa;
     font-size: 14px;
 }
+
 .panel-footer .btn {
     margin: 15px 0;
     background-color: #f4511e;
     color: floralwhite;
 }
+
 .navbar {
     margin-bottom: 0;
     background-color:black;
@@ -226,22 +244,27 @@ p {
     border-radius: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
 .navbar li a, .navbar .navbar-brand {
     color: white !important;
 }
+
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: rgb(245, 47, 47) !important;
     background-color: white !important;
 }
+
 .navbar-default .navbar-toggle {
     border-color: transparent;
     color: white !important;
 }
+
 footer .glyphicon {
     font-size: 20px;
     margin-bottom: 20px;
     color: floralwhite;
 }
+
 .slideanim {visibility:hidden;}
 .slide {
     animation-name: slide;
@@ -250,40 +273,49 @@ footer .glyphicon {
     -webkit-animation-duration: 1s;
     visibility: visible;
 }
+
 @keyframes slide {
   0% {
     opacity: 0;
     transform: translateY(70%);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0%);
   }
+
 }
+
 @-webkit-keyframes slide {
   0% {
     opacity: 0;
     -webkit-transform: translateY(70%);
   }
+
   100% {
     opacity: 1;
     -webkit-transform: translateY(0%);
   }
+
 }
 @media screen and (max-width: 100%) {
   .col-sm-4 {
     text-align: center;
     margin: 25px 0;
   }
+
   .btn-lg {
       width: 100%;
       margin-bottom: 35px;
   }
+
 }
 @media screen and (max-width: 100%) {
   .logo {
       font-size: 150px;
   }
+
 @media all and (min-width: 200px)
     body {
     
